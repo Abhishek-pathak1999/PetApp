@@ -1,0 +1,8 @@
+{
+  "name": "MyPetBookParent",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite",
+  "id": "eb456027"
+}

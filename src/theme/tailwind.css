@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Segoe UI";
+  src: local("Segoe UI"), local("SegoeUI"),
+    url("src/assets/fonts/Segoe UI 400.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Inter";
+  src: local("Inter"), local("Inter"),
+    url("../../assets/Inter-Regular.otf") format("truetype");
+}
+
