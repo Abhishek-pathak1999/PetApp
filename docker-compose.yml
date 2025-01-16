@@ -1,0 +1,20 @@
+version: '2'
+services:
+  mypetbook-parent:
+    build: .
+    restart: always
+    container_name: mypetbook-parent
+    logging:
+      options:
+        max-size: "10m"
+        max-file: "3"
+    
+
+
+
+networks:
+    default:
+       external: true
+       name: letsencrypt_default
+
+
